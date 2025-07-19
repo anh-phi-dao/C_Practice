@@ -129,6 +129,19 @@ Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
+#=============================================================================
+# Target rules for targets named priority
+
+# Build rule for target.
+priority: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 priority
+.PHONY : priority
+
+# fast build rule for target.
+priority/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/build
+.PHONY : priority/fast
+
 Test.obj: Test.c.obj
 .PHONY : Test.obj
 
@@ -153,6 +166,30 @@ Test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Test.c.s
 .PHONY : Test.c.s
 
+priority.obj: priority.c.obj
+.PHONY : priority.obj
+
+# target to build an object file
+priority.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/priority.c.obj
+.PHONY : priority.c.obj
+
+priority.i: priority.c.i
+.PHONY : priority.i
+
+# target to preprocess a source file
+priority.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/priority.c.i
+.PHONY : priority.c.i
+
+priority.s: priority.c.s
+.PHONY : priority.s
+
+# target to generate assembly for a file
+priority.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority.dir/build.make CMakeFiles/priority.dir/priority.c.s
+.PHONY : priority.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Test"
+	@echo "... priority"
 	@echo "... Test.obj"
 	@echo "... Test.i"
 	@echo "... Test.s"
+	@echo "... priority.obj"
+	@echo "... priority.i"
+	@echo "... priority.s"
 .PHONY : help
 
 

@@ -1,111 +1,64 @@
-Yeu cau 1
-85 
-(823 ; 1040)
-(186 ; 1389)
-(61 ; 425)
-(458 ; 809)
-(726 ; 831)
-(808 ; 1331)
-(31 ; 195)
-(193 ; 1239)
-(334 ; 1395)
-(277 ; 1000)
-(947 ; 1209)
-(312 ; 371)
-(253 ; 862)
-(213 ; 639)
-(211 ; 880)
-(979 ; 1416)
-(172 ; 543)
-(512 ; 796)
-(26 ; 1020)
-(545 ; 630)
-(30 ; 579)
-(164 ; 1012)
-(657 ; 898)
-(773 ; 1254)
-(300 ; 1033)
-(681 ; 931)
-(737 ; 754)
-(230 ; 832)
-(1075 ; 1178)
-(932 ; 1271)
-(325 ; 1295)
-(607 ; 1304)
-(180 ; 629)
-(347 ; 1010)
-(584 ; 713)
-(25 ; 740)
-(174 ; 859)
-(290 ; 949)
-(587 ; 1310)
-(1171 ; 1175)
-(757 ; 903)
-(173 ; 812)
-(166 ; 1121)
-(521 ; 1049)
-(603 ; 1072)
-(1138 ; 1406)
-(445 ; 584)
-(16 ; 780)
-(459 ; 1351)
-(168 ; 229)
-(479 ; 1232)
-(243 ; 1366)
-(32 ; 625)
-(552 ; 888)
-(557 ; 1040)
-(54 ; 1062)
-(643 ; 1045)
-(417 ; 1359)
-(572 ; 1324)
-(1156 ; 1209)
-(939 ; 1366)
-(207 ; 920)
-(463 ; 1145)
-(426 ; 730)
-(1038 ; 1336)
-(1086 ; 1095)
-(528 ; 1118)
-(1305 ; 1356)
-(230 ; 1310)
-(272 ; 778)
-(345 ; 1030)
-(91 ; 1080)
-(284 ; 1058)
-(1215 ; 1258)
-(1127 ; 1165)
-(358 ; 1196)
-(1288 ; 1369)
-(337 ; 1006)
-(187 ; 518)
-(203 ; 797)
-(449 ; 927)
-(51 ; 1001)
-(461 ; 819)
-(967 ; 974)
-(221 ; 1353)
-
-
-Yeu cau 2:
-
-19
-(1171 ; 1175)
-(967 ; 974)
-(1086 ; 1095)
-(737 ; 754)
-(1127 ; 1165)
-(1215 ; 1258)
-(1305 ; 1356)
-(1156 ; 1209)
-(312 ; 371)
-(168 ; 229)
-(1288 ; 1369)
-(545 ; 630)
-(1075 ; 1178)
-(726 ; 831)
-(584 ; 713)
-(445 ; 584)
-(757 ; 903)
-(31 ; 195)
-(823 ; 1040)
+size=63
+Running task with priority=98 and id=1
+Running task with priority=98 and id=35
+Running task with priority=98 and id=26
+Running task with priority=94 and id=22
+Running task with priority=94 and id=37
+Running task with priority=91 and id=47
+Running task with priority=89 and id=60
+Running task with priority=85 and id=25
+Running task with priority=83 and id=55
+Running task with priority=80 and id=42
+Running task with priority=79 and id=50
+Running task with priority=76 and id=24
+Running task with priority=76 and id=27
+Running task with priority=75 and id=8
+Running task with priority=75 and id=14
+Running task with priority=73 and id=48
+Running task with priority=72 and id=52
+Running task with priority=71 and id=21
+Running task with priority=71 and id=38
+Running task with priority=70 and id=16
+Running task with priority=68 and id=29
+Running task with priority=65 and id=4
+Running task with priority=64 and id=49
+Running task with priority=61 and id=32
+Running task with priority=60 and id=10
+Running task with priority=57 and id=3
+Running task with priority=56 and id=41
+Running task with priority=55 and id=34
+Running task with priority=53 and id=11
+Running task with priority=53 and id=58
+Running task with priority=52 and id=31
+Running task with priority=52 and id=54
+Running task with priority=52 and id=44
+Running task with priority=49 and id=39
+Running task with priority=48 and id=13
+Running task with priority=46 and id=20
+Running task with priority=43 and id=9
+Running task with priority=43 and id=43
+Running task with priority=42 and id=6
+Running task with priority=41 and id=57
+Running task with priority=34 and id=40
+Running task with priority=32 and id=18
+Running task with priority=30 and id=36
+Running task with priority=29 and id=33
+Running task with priority=29 and id=62
+Running task with priority=27 and id=2
+Running task with priority=27 and id=46
+Running task with priority=26 and id=7
+Running task with priority=23 and id=17
+Running task with priority=20 and id=53
+Running task with priority=19 and id=59
+Running task with priority=18 and id=45
+Running task with priority=16 and id=12
+Running task with priority=15 and id=30
+Running task with priority=13 and id=15
+Running task with priority=12 and id=5
+Running task with priority=11 and id=28
+Running task with priority=8 and id=0
+Running task with priority=6 and id=23
+Running task with priority=6 and id=56
+Running task with priority=5 and id=19
+Running task with priority=5 and id=61
+Running task with priority=3 and id=51
