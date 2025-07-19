@@ -42,7 +42,9 @@ int main()
 
     return 0;
 }
-
+/**
+ * @brief create new task with no link to other task
+ */
 TASK *create_new_task(int priority, int id)
 {
     TASK *current = (TASK *)malloc(sizeof(TASK));
@@ -53,6 +55,9 @@ TASK *create_new_task(int priority, int id)
     return current;
 }
 
+/**
+ * @brief create task before current task
+ */
 TASK *add_task_before_current(TASK *current_queue, int priority, int id)
 {
     TASK *current = current_queue;
@@ -78,6 +83,9 @@ TASK *add_task_before_current(TASK *current_queue, int priority, int id)
     }
 }
 
+/**
+ * @brief create task after current task
+ */
 TASK *add_task_after_current(TASK *current_queue, int priority, int id)
 {
     TASK *current = current_queue;
@@ -103,6 +111,9 @@ TASK *add_task_after_current(TASK *current_queue, int priority, int id)
     }
 }
 
+/**
+ * @brief create task and stack it to queue following high-order priority and fifo rule
+ */
 TASK *enqueue(TASK *queue, int priority, int id)
 {
     TASK *current = queue;
@@ -149,6 +160,9 @@ TASK *enqueue(TASK *queue, int priority, int id)
     return current;
 }
 
+/**
+ * @brief delete the header task of queue and return the next task
+ */
 TASK *delete_first_task(TASK *current_queue)
 {
     TASK *current = current_queue;
@@ -164,12 +178,18 @@ TASK *delete_first_task(TASK *current_queue)
     }
 }
 
+/**
+ * @brief print the header task and return the next task that will be printed out
+ */
 TASK *dequeue(TASK *queue)
 {
     printf("Running task with priority=%d and id=%d\n", queue->priority, queue->id);
     return delete_first_task(queue);
 }
 
+/**
+ * @brief get current size of queue
+ */
 size_t queue_get_size(TASK *queue)
 {
     size_t count = 0;
