@@ -3,8 +3,6 @@
 #include "stdbool.h"
 #include <time.h>
 
-typedef struct TASK TASK;
-
 struct TASK
 {
 
@@ -13,6 +11,8 @@ struct TASK
     struct TASK *next;
     struct TASK *previous;
 };
+
+typedef struct TASK TASK;
 
 TASK *create_new_task(int priority, int id);
 TASK *add_task_before_current(TASK *current_queue, int priority, int id);
@@ -28,11 +28,11 @@ int main()
 {
 
     srand(time(NULL));
-    int N = rand() % 100;
+    int N = rand() % 10000;
 
     for (int i = 0; i < N; i++)
     {
-        queue = enqueue(queue, rand() % 100, i);
+        queue = enqueue(queue, rand() % 10000, i);
     }
     printf("size=%d\n", N);
     while (queue_get_size(queue) > 0)
