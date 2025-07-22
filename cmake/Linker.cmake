@@ -17,6 +17,5 @@ function(target_generate_map TARGET)
     endif()
 
     target_link_options(${TARGET} PRIVATE ${OPTIONS})
-    message(STATUS ${WARNINGS})
 
 endfunction(target_generate_map)
