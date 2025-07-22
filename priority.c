@@ -28,18 +28,17 @@ int main()
 {
 
     srand(time(NULL));
-    int N = rand() % 10000;
+    int N = 10000;
 
     for (int i = 0; i < N; i++)
     {
-        queue = enqueue(queue, rand() % 10000, i);
+        queue = enqueue(queue, rand() % N, i);
     }
     printf("size=%d\n", N);
     while (queue_get_size(queue) > 0)
     {
         queue = dequeue(queue);
     }
-
     return 0;
 }
 /**
@@ -137,11 +136,7 @@ TASK *enqueue(TASK *queue, int priority, int id)
         else if (current->priority == priority)
         {
             current = add_task_after_current(current, priority, id);
-            while (current->previous != NULL)
-            {
-                current = current->previous;
-            }
-            return current;
+            return queue;
         }
         else if (current->priority > priority)
         {
@@ -152,12 +147,7 @@ TASK *enqueue(TASK *queue, int priority, int id)
     TASK *new_node = create_new_task(priority, id);
     last_current->next = new_node;
     new_node->previous = last_current;
-    current = last_current;
-    while (current->previous != NULL)
-    {
-        current = current->previous;
-    }
-    return current;
+    return queue;
 }
 
 /**
