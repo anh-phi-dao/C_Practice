@@ -14,6 +14,7 @@ function(target_generate_map TARGET)
         set(OPTIONS ${GCC_OPTIONS})
     else()
         message(STATUS "target_generate_map only set for GNU or CLANG")
+        return()
     endif()
 
     target_link_options(${TARGET} PRIVATE ${OPTIONS})
